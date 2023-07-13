@@ -9,8 +9,7 @@ tidy:
 	go mod tidy
 	go mod vendor
 
-run:
-	pull
+run: pull
 	go run cmd/main.go
 
 #===============================
